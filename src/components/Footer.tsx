@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="px-4 h-[120px] flex flex-row items-center justify-between bg-yankees_blue">
+    <div className="px-4 h-[120px] flex flex-row items-center justify-between bg-yankees_blue sm:pl-[39px] sm:pr-[40px] lg:px-[165px]">
       <p className="text-[28px] leading-[35px] font-extrabold text-white">
         skilled
       </p>
