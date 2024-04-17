@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="relative pt-[22px] px-4 pb-[0px] bg-white flex flex-col sm:flex-row sm:pl-[39px] sm:pr-[40px] sm:h-[470px] sm:pt-[99px] sm:pb-[87px] lg:h-[711px] lg:pl-[165px] lg:pt-[172px] lg:pb-[226px] overflow-x-hidden max-w-full z-0">
+    <div className="relative pt-[22px] px-4 pb-[0px] bg-white flex flex-col sm:flex-row sm:pl-[39px] sm:pr-[40px] sm:h-[470px] sm:pt-[99px] sm:pb-[87px] lg:h-[711px] lg:pl-[165px] lg:pt-[172px] lg:pb-[226px] overflow-hidden max-w-full z-0">
       <div className="flex flex-col w-full sm:w-[398px] lg:w-[457px] sm:h-full sm:justify-center ">
         <h1 className="text-heading-l text-yankees_blue">
           Maximize skill, minimize budget

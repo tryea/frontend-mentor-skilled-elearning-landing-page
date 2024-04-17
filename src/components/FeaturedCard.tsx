@@ -10,7 +10,7 @@ export default function FeaturedCard({
   description: string;
 }) {
   return (
-    <div className="relative w-full pt-14 pl-7 rounded-[10px] pr-[29px] pb-8 shadow-[0px_25px_50px_rgba(6,22,141,0.0442)] bg-white">
+    <div className="relative w-full pt-14 pl-7 rounded-[10px] pr-[29px] pb-8 shadow-[0px_25px_50px_rgba(6,22,141,0.0442)] bg-white sm:w-[340px]">
       <div className="absolute w-14 h-14 flex items-center justify-center top-[-24px] left-[28px]">
         <Image src={iconSrc} fill alt={`icon-${name}`} />
       </div>

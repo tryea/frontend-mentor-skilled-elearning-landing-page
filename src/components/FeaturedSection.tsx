@@ -17,6 +17,12 @@ export default function FeaturedSection() {
     },
 
     {
+      iconSrc: "/icons/icon-photography.svg",
+      name: "Photography",
+      description:
+        "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
+    },
+    {
       iconSrc: "/icons/icon-crypto.svg",
       name: "Crypto",
       description:
@@ -31,12 +37,12 @@ export default function FeaturedSection() {
     },
   ];
   return (
-    <div className="bg-gradient-3 px-4 pb-[80px] sm:mt-[99px]">
-      <div className="w-full pt-6 pr-[29px] pb-8 pl-7 rounded-[10px] bg-gradient-1 text-white text-title-extrabold">
-        <p>Check out our most popular courses!</p>
-      </div>
+    <div className="bg-gradient-3 px-4 pb-[80px] sm:mt-[99px] sm:pl-[39px] sm:pr-[40px] lg:px-[165px]">
+      <div className="flex flex-col gap-4 sm:flex-row sm:gap-x-[9px] sm:gap-y-8 sm:flex-wrap lg:gap-x-[30px] lg:gap-y-[56px]">
+        <div className="mb-10 w-full pt-6 pr-[29px] pb-8 pl-7 rounded-[10px] bg-gradient-1 text-white text-title-extrabold sm:mb-0 sm:w-[339px] sm:pl-8 sm:pr-[21px] sm:pt-14 sm:pb-[139px] lg:w-[350px] lg:px-8 lg:pt-16 lg:pb-[138px]">
+          <p>Check out our most popular courses!</p>
+        </div>
 
-      <div className="flex flex-col mt-10 gap-4">
         {featuredData.map((feature) => {
           return (
             <FeaturedCard
