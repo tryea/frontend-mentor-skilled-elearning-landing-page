@@ -11,6 +11,11 @@
     font-size: 40px;
     font-weight: theme(fontWeight.extrabold);
     line-height: 50.4px;
+
+    @media (min-width: 1024px) {
+      font-size: 56px;
+      line-height: 70.6px;
+    }
   }
 
   .text-body-medium {

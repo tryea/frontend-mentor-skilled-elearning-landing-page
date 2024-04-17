@@ -1,6 +1,6 @@
 export default function HeaderNav() {
   return (
-    <div className="flex flex-row items-center justify-between p-4 sm:py-6 sm:pb-0 sm:pl-[39px] sm:pr-10 lg:px-[165px]">
+    <div className="flex flex-row items-center justify-between p-4 sm:py-6 sm:pb-0 sm:pl-[39px] sm:pr-10 lg:px-[165px] z-0">
       <p className="text-[28px] leading-[35px] font-extrabold text-yankees_blue">
         skilled
       </p>
